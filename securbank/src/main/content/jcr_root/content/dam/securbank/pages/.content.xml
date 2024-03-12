@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:oak="http://jackrabbit.apache.org/oak/ns/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="sling:Folder"
+    jcr:uuid="8c58b1a7-992d-4840-9790-98cdf4effe5c">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Pages"
+        sourcing="false">
+        <folderThumbnail/>
+        <cq:discarded jcr:primaryType="oak:Unstructured">
+            <c9dd688d-1fc2-47bb-9e79-77434ddff09a jcr:primaryType="oak:Unstructured"/>
+            <cce18308-9b35-473a-aae8-3d78239c0fe4 jcr:primaryType="oak:Unstructured"/>
+        </cq:discarded>
+    </jcr:content>
+</jcr:root>
