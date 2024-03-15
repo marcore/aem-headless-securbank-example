@@ -56,7 +56,13 @@
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.aem.summit.2024</groupId>
-                            <artifactId>l425.securbank</artifactId>
+                            <artifactId>l425.securbank.base</artifactId>
+                            <type>zip</type>
+                            <target>/apps/securbank/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem.summit.2024</groupId>
+                            <artifactId>l425.securbank.content</artifactId>
                             <type>zip</type>
                             <target>/apps/securbank/install</target>
                         </embedded>
@@ -169,7 +175,13 @@
     <dependencies>
         <dependency>
             <groupId>com.adobe.aem.summit.2024</groupId>
-            <artifactId>l425.securbank</artifactId>
+            <artifactId>l425.securbank.base</artifactId>
+            <version>${project.version}</version>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem.summit.2024</groupId>
+            <artifactId>l425.securbank.content</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>

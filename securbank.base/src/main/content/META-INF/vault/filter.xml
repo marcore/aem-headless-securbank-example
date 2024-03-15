@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/content/dam/securbank"/>
     <filter root="/conf/securbank"/>
     <filter root="/content/cq:tags/securebank"/>
     <filter root="/content/cq:graphql/securbank"/>

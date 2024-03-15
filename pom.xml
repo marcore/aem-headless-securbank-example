@@ -9,7 +9,8 @@
   <description>Cloud Manager Repository for Adobe Summit 2024 L425</description>
   <modules>
     <module>all</module>
-    <module>securbank</module>
+    <module>securbank.base</module>
+    <module>securbank.content</module>
     <module>ui.apps.structure</module>
     <module>ui.config</module>
   </modules>

@@ -30,7 +30,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>l425.securbank</artifactId>
+    <artifactId>l425.securbank.content</artifactId>
     <packaging>content-package</packaging>
     <name>Adobe Summit 2024 L425 - SecurBank Content</name>
     <description>SecurBank Content Package for Adobe Summit 2024 L425</description>
@@ -50,7 +50,7 @@
                         <cloudManagerTarget>none</cloudManagerTarget>
                     </properties>
                     <group>com.adobe.aem.summit.2024</group>
-                    <name>l425.securbank</name>
+                    <name>l425.securbank.content</name>
                     <packageType>content</packageType>
                     <validatorsSettings>
                         <jackrabbit-filter>
@@ -59,6 +59,12 @@
                             </options>
                         </jackrabbit-filter>
                     </validatorsSettings>
+                    <dependencies>
+                        <dependency>
+                            <groupId>com.adobe.aem.summit.2024</groupId>
+                            <artifactId>l425.securbank.base</artifactId>
+                        </dependency>
+                    </dependencies>
                 </configuration>
             </plugin>
             <plugin>
@@ -67,4 +73,16 @@
             </plugin>
         </plugins>
     </build>
+
+    <!-- ====================================================================== -->
+    <!-- D E P E N D E N C I E S                                                -->
+    <!-- ====================================================================== -->
+    <dependencies>
+        <dependency>
+            <groupId>com.adobe.aem.summit.2024</groupId>
+            <artifactId>l425.securbank.base</artifactId>
+            <version>${project.version}</version>
+            <type>zip</type>
+        </dependency>
+    </dependencies>
 </project>
