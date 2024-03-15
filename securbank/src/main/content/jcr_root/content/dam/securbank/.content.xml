@@ -16,8 +16,5 @@
         processingProfile="System Default"
         sourcing="false">
         <folderThumbnail/>
-        <cq:discarded jcr:primaryType="oak:Unstructured">
-            <_x0038_055ae79-6c9a-4cf9-9fe1-9a2032ec34ed jcr:primaryType="oak:Unstructured"/>
-        </cq:discarded>
     </jcr:content>
 </jcr:root>

@@ -4,9 +4,6 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="3bbd1fb5-b326-4a63-b428-56eb48d4f36a">
     <jcr:content
-        cq:discardDate="{Date}2024-03-07T05:34:41.263Z"
-        cq:discardedBy="L425+00@adobeeventlab.com"
-        cq:discardState="DISCARDED"
         dam:assetState="processed"
         dam:jobId="1d3a7164-9da7-410b-927a-861897851cb4"
         dam:processingId="7eaabf53-0d1c-43c5-be92-75e18e09d187"

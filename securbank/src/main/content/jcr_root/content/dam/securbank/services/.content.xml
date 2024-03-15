@@ -10,8 +10,5 @@
         jcr:title="Services"
         title="Services">
         <folderThumbnail/>
-        <cq:discarded jcr:primaryType="oak:Unstructured">
-            <_x0036_65e4825-9dff-4616-a703-faa2b1db76a8 jcr:primaryType="oak:Unstructured"/>
-        </cq:discarded>
     </jcr:content>
 </jcr:root>
