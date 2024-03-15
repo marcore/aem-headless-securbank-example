@@ -14,7 +14,6 @@
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
         cq:scaffolding="/conf/securbank/settings/dam/cfm/models/page/jcr:content/model"
-        cq:tags="[securebank:object-type/page]"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:mixinTypes="[cq:ReplicationStatus2]"
         jcr:primaryType="cq:PageContent"
